@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(127,127,130,1) 0%, rgba(169,169,172,1) 74%, rgba(201,204,204,1) 95%, rgba(225,226,226,1) 100%);
 }
 
 /*NAVEGATION*/
@@ -10,7 +17,6 @@
 .header {
   background: #A8A9AD;
   height: 150px;
- 
 }
 
 /*.tools {
@@ -69,9 +75,23 @@
   border: 2px solid blue;
   margin: 20px 20px auto;
   box-shadow: 10px 5px 5px black;
+  width: 500px
 }
 
 .about-words {
-  margin: 40px 20px auto;
-  font-size: 20px;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 30px;
+}
+
+#mission {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: -30px;
+
+  text-align: center;
+}
+
+#mission::first-letter {
+  font-size: 50px;
 }
