@@ -75,23 +75,9 @@ body {
   border: 2px solid blue;
   margin: 20px 20px auto;
   box-shadow: 10px 5px 5px black;
-  width: 500px
+  width: 350px
 }
 
-.about-words {
-  text-align: center;
-  margin-top: 150px;
-  font-size: 30px;
-}
-
-#mission {
-  font-size: 25px;
-  margin-top: 20px;
-  margin-left: -30px;
-
-  text-align: center;
-}
-
-#mission::first-letter {
-  font-size: 50px;
+p {
+  font-size: 30px
 }
